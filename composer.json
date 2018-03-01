@@ -1,12 +1,12 @@
 {
-    "name": "webgriffe/module-bootstrap-menu",
+    "name": "ksimeonov/module-bootstrap-menu",
     "description": "Magento 2 module which turns top menu compatible with Bootstrap.",
     "require": {
         "php": "^5.6|^7.0|^7.1",
         "magento/module-theme": "100.1.*|100.2.*"
     },
     "suggest": {
-        "webgriffe/theme-frontend-bootstrap": "^1.0"
+        "ksimeonov/theme-frontend-bootstrap": "^1.0"
     },
     "type": "magento2-module",
     "version": "1.0.3",
@@ -18,7 +18,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Webgriffe\\BootstrapMenu\\": ""
+            "ksimeonov\\BootstrapMenu\\": ""
         }
     }
 }
